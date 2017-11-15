@@ -1,1 +1,12 @@
-this is index page
+{%if user.is_active%}
+
+dd
+{% else %}
+
+sss
+{% endif %}
+
+<form action="">
+  <input type="file" name="pic" accept="image/*" enctype="multipart/form-data" >
+  <input type="submit">
+</form>
